@@ -1,0 +1,29 @@
+{
+  "name": "peli-vs-peli",
+  "version": "1.0.0",
+  "description": "Proyecto de Acamica-Emi",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emilianobisio/proyectos-acamica"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "nodemon": "^1.12.5",
+    "serve": "^6.4.1"
+  }
+}
